@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:100,300,400,400i,700,700i&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+* {margin: 0;  padding: 0;}
+
+*, *:before, *:after {box-sizing: inherit;}
+
+html {font: 16px/1.5 'Roboto', sans-serif; box-sizing: border-box;}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 3rem;
+    }
+
+    h1, h2, h3, h4 {
+    font-family: 'Abril Fatface', cursive;
+}
+
+.main-image {
+    background: url('image/image.jpg') center;
+    background-position-y: -28rem;
+    background-size: cover;
+    width: 100%;
+    height: 51rem;
+}    
+
+.main-logo {
+    display: inline-block;
+    margin: 2rem 0 0 3rem;
+    padding: 1.7rem 0rem 1.5rem 1.5rem;
+    box-shadow:  2px 2px 10px rgb(70, 70, 70);
+}
+
+.main-logo h1 {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.3em;
+    border-bottom: 2px solid #fff;
+    width: 60%;
+}
+
+.main-logo p {
+    font-size: 17px;
+}
+
+.main-quote {
+    float: right;
+    margin: 13rem 2rem 0 0;
+    text-align: right;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgb(53, 53, 53);
+    padding: 1rem;
+    width: 29%;
+    box-shadow:  2px 2px 10px rgb(70, 70, 70);
+    background: linear-gradient(to right, #8D8581, #a8a099, #b5aea9, #c1bcb9, #cecbc9);
+}
+
+.main-quote i {
+    font-size: 1.3rem;
+    color: #756f6b;
+    line-height: 1;
+    margin: 1rem 0;
+}
+
+.site-info{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.site-info-bullets {
+    flex-basis: 70%;
+    padding: 3rem 4rem 2rem 5rem;
+    background: #F2F0F3;
+}
+
+.site-info-bullets > h1 {
+    padding-bottom: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.site-info-bullets ul {
+    list-style-type: none;
+}
+
+.site-info-bullets li {
+    margin-bottom: 1.5rem;
+}
+
+.site-info-bullets span {
+    font-weight: bold;
+}
+
+.site-info-bullets i {
+    margin-right: 0.5rem;
+}
+
+.contacts {
+    margin-top: 4rem;
+}
+
+.contacts p {
+    font-size: 17px;
+    margin-bottom: 2rem;
+}
+
+.contacts span {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 0.5rem;
+    }
+
+.contacts span:first-child {
+    margin-left: 0;
+}
+
+.contacts h1 {
+    border-bottom: 2px solid #000;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+}
+
+
+form {font: 16px/1.5 'Roboto', sans-serif;}
+
+form input {
+    background: #BAB1AD;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-right: 0.5rem;
+    width: 18rem;
+}
+
+form input::placeholder {
+    color: #fff;
+}
+
+form button {
+    text-decoration: none;
+    color: #fff;
+    background: #67784D;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    border: none;
+}
+
+.aside {
+    flex-basis: 30%;
+    background: #BAB1AD;
+}
+
+.aside div {
+    padding: 2rem 0 5rem 2rem;
+}
+
+.aside div:last-child {
+    padding: 2rem 0 2rem 2rem;
+}
+
+.aside-title {
+    font-size: 4rem;
+    line-height: 1;
+    color: #fff;
+    font-weight: 100;
+}
+
+.aside-text {
+    text-transform: uppercase;
+}

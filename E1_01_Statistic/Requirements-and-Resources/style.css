@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.8.2/css/all.css');
+
+* {padding: 0;margin:0;box-sizing: inherit;}
+
+html {font:20px/1.5 'Ubuntu', sans-serif; box-sizing: border-box;}
+
+body {
+    background: #fff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.main {
+    position: relative;
+    background: linear-gradient(rgba(18, 25, 121, 0.7), rgba(18, 25, 121, 0.7)), url('images/image.jpg');
+    background-size: cover;
+
+    
+    color: #fff;
+    text-align: center;
+    padding: 3rem 6rem;
+}
+
+.fa-times {
+    position: absolute;
+    right: 1%; top: 2%;
+    color: #fff;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+}
+
+span i {
+    color: #EC8421;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
